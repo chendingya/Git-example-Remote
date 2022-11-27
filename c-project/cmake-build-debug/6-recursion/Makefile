@@ -116,118 +116,422 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-6-recursion/CMakeFiles/plagiarize.dir/rule:
-	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-recursion/CMakeFiles/plagiarize.dir/rule
-.PHONY : 6-recursion/CMakeFiles/plagiarize.dir/rule
+6-recursion/CMakeFiles/fib-iter.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-recursion/CMakeFiles/fib-iter.dir/rule
+.PHONY : 6-recursion/CMakeFiles/fib-iter.dir/rule
 
 # Convenience name for target.
-plagiarize: 6-recursion/CMakeFiles/plagiarize.dir/rule
-.PHONY : plagiarize
+fib-iter: 6-recursion/CMakeFiles/fib-iter.dir/rule
+.PHONY : fib-iter
 
 # fast build rule for target.
-plagiarize/fast:
-	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\plagiarize.dir\build.make 6-recursion/CMakeFiles/plagiarize.dir/build
-.PHONY : plagiarize/fast
+fib-iter/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\fib-iter.dir\build.make 6-recursion/CMakeFiles/fib-iter.dir/build
+.PHONY : fib-iter/fast
 
 # Convenience name for target.
-6-recursion/CMakeFiles/tile.dir/rule:
-	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-recursion/CMakeFiles/tile.dir/rule
-.PHONY : 6-recursion/CMakeFiles/tile.dir/rule
+6-recursion/CMakeFiles/min-re.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-recursion/CMakeFiles/min-re.dir/rule
+.PHONY : 6-recursion/CMakeFiles/min-re.dir/rule
 
 # Convenience name for target.
-tile: 6-recursion/CMakeFiles/tile.dir/rule
-.PHONY : tile
+min-re: 6-recursion/CMakeFiles/min-re.dir/rule
+.PHONY : min-re
 
 # fast build rule for target.
-tile/fast:
-	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\tile.dir\build.make 6-recursion/CMakeFiles/tile.dir/build
-.PHONY : tile/fast
+min-re/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\min-re.dir\build.make 6-recursion/CMakeFiles/min-re.dir/build
+.PHONY : min-re/fast
 
 # Convenience name for target.
-6-recursion/CMakeFiles/yanghui.dir/rule:
-	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-recursion/CMakeFiles/yanghui.dir/rule
-.PHONY : 6-recursion/CMakeFiles/yanghui.dir/rule
+6-recursion/CMakeFiles/gcd-euclid-re.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-recursion/CMakeFiles/gcd-euclid-re.dir/rule
+.PHONY : 6-recursion/CMakeFiles/gcd-euclid-re.dir/rule
 
 # Convenience name for target.
-yanghui: 6-recursion/CMakeFiles/yanghui.dir/rule
-.PHONY : yanghui
+gcd-euclid-re: 6-recursion/CMakeFiles/gcd-euclid-re.dir/rule
+.PHONY : gcd-euclid-re
 
 # fast build rule for target.
-yanghui/fast:
-	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\yanghui.dir\build.make 6-recursion/CMakeFiles/yanghui.dir/build
-.PHONY : yanghui/fast
+gcd-euclid-re/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclid-re.dir\build.make 6-recursion/CMakeFiles/gcd-euclid-re.dir/build
+.PHONY : gcd-euclid-re/fast
 
-plagiarize.obj: plagiarize.c.obj
-.PHONY : plagiarize.obj
+# Convenience name for target.
+6-recursion/CMakeFiles/sum-re.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-recursion/CMakeFiles/sum-re.dir/rule
+.PHONY : 6-recursion/CMakeFiles/sum-re.dir/rule
+
+# Convenience name for target.
+sum-re: 6-recursion/CMakeFiles/sum-re.dir/rule
+.PHONY : sum-re
+
+# fast build rule for target.
+sum-re/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\sum-re.dir\build.make 6-recursion/CMakeFiles/sum-re.dir/build
+.PHONY : sum-re/fast
+
+# Convenience name for target.
+6-recursion/CMakeFiles/fib.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-recursion/CMakeFiles/fib.dir/rule
+.PHONY : 6-recursion/CMakeFiles/fib.dir/rule
+
+# Convenience name for target.
+fib: 6-recursion/CMakeFiles/fib.dir/rule
+.PHONY : fib
+
+# fast build rule for target.
+fib/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\fib.dir\build.make 6-recursion/CMakeFiles/fib.dir/build
+.PHONY : fib/fast
+
+# Convenience name for target.
+6-recursion/CMakeFiles/fib-array.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-recursion/CMakeFiles/fib-array.dir/rule
+.PHONY : 6-recursion/CMakeFiles/fib-array.dir/rule
+
+# Convenience name for target.
+fib-array: 6-recursion/CMakeFiles/fib-array.dir/rule
+.PHONY : fib-array
+
+# fast build rule for target.
+fib-array/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\fib-array.dir\build.make 6-recursion/CMakeFiles/fib-array.dir/build
+.PHONY : fib-array/fast
+
+# Convenience name for target.
+6-recursion/CMakeFiles/gcd-euclid-iter.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-recursion/CMakeFiles/gcd-euclid-iter.dir/rule
+.PHONY : 6-recursion/CMakeFiles/gcd-euclid-iter.dir/rule
+
+# Convenience name for target.
+gcd-euclid-iter: 6-recursion/CMakeFiles/gcd-euclid-iter.dir/rule
+.PHONY : gcd-euclid-iter
+
+# fast build rule for target.
+gcd-euclid-iter/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclid-iter.dir\build.make 6-recursion/CMakeFiles/gcd-euclid-iter.dir/build
+.PHONY : gcd-euclid-iter/fast
+
+# Convenience name for target.
+6-recursion/CMakeFiles/gcd-euclidean-iter.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-recursion/CMakeFiles/gcd-euclidean-iter.dir/rule
+.PHONY : 6-recursion/CMakeFiles/gcd-euclidean-iter.dir/rule
+
+# Convenience name for target.
+gcd-euclidean-iter: 6-recursion/CMakeFiles/gcd-euclidean-iter.dir/rule
+.PHONY : gcd-euclidean-iter
+
+# fast build rule for target.
+gcd-euclidean-iter/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclidean-iter.dir\build.make 6-recursion/CMakeFiles/gcd-euclidean-iter.dir/build
+.PHONY : gcd-euclidean-iter/fast
+
+# Convenience name for target.
+6-recursion/CMakeFiles/gcd-euclidean-re.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-recursion/CMakeFiles/gcd-euclidean-re.dir/rule
+.PHONY : 6-recursion/CMakeFiles/gcd-euclidean-re.dir/rule
+
+# Convenience name for target.
+gcd-euclidean-re: 6-recursion/CMakeFiles/gcd-euclidean-re.dir/rule
+.PHONY : gcd-euclidean-re
+
+# fast build rule for target.
+gcd-euclidean-re/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclidean-re.dir\build.make 6-recursion/CMakeFiles/gcd-euclidean-re.dir/build
+.PHONY : gcd-euclidean-re/fast
+
+# Convenience name for target.
+6-recursion/CMakeFiles/bsearch-re.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-recursion/CMakeFiles/bsearch-re.dir/rule
+.PHONY : 6-recursion/CMakeFiles/bsearch-re.dir/rule
+
+# Convenience name for target.
+bsearch-re: 6-recursion/CMakeFiles/bsearch-re.dir/rule
+.PHONY : bsearch-re
+
+# fast build rule for target.
+bsearch-re/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\bsearch-re.dir\build.make 6-recursion/CMakeFiles/bsearch-re.dir/build
+.PHONY : bsearch-re/fast
+
+# Convenience name for target.
+6-recursion/CMakeFiles/merge-sort.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-recursion/CMakeFiles/merge-sort.dir/rule
+.PHONY : 6-recursion/CMakeFiles/merge-sort.dir/rule
+
+# Convenience name for target.
+merge-sort: 6-recursion/CMakeFiles/merge-sort.dir/rule
+.PHONY : merge-sort
+
+# fast build rule for target.
+merge-sort/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\merge-sort.dir\build.make 6-recursion/CMakeFiles/merge-sort.dir/build
+.PHONY : merge-sort/fast
+
+bsearch-re.obj: bsearch-re.c.obj
+.PHONY : bsearch-re.obj
 
 # target to build an object file
-plagiarize.c.obj:
-	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\plagiarize.dir\build.make 6-recursion/CMakeFiles/plagiarize.dir/plagiarize.c.obj
-.PHONY : plagiarize.c.obj
+bsearch-re.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\bsearch-re.dir\build.make 6-recursion/CMakeFiles/bsearch-re.dir/bsearch-re.c.obj
+.PHONY : bsearch-re.c.obj
 
-plagiarize.i: plagiarize.c.i
-.PHONY : plagiarize.i
+bsearch-re.i: bsearch-re.c.i
+.PHONY : bsearch-re.i
 
 # target to preprocess a source file
-plagiarize.c.i:
-	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\plagiarize.dir\build.make 6-recursion/CMakeFiles/plagiarize.dir/plagiarize.c.i
-.PHONY : plagiarize.c.i
+bsearch-re.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\bsearch-re.dir\build.make 6-recursion/CMakeFiles/bsearch-re.dir/bsearch-re.c.i
+.PHONY : bsearch-re.c.i
 
-plagiarize.s: plagiarize.c.s
-.PHONY : plagiarize.s
+bsearch-re.s: bsearch-re.c.s
+.PHONY : bsearch-re.s
 
 # target to generate assembly for a file
-plagiarize.c.s:
-	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\plagiarize.dir\build.make 6-recursion/CMakeFiles/plagiarize.dir/plagiarize.c.s
-.PHONY : plagiarize.c.s
+bsearch-re.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\bsearch-re.dir\build.make 6-recursion/CMakeFiles/bsearch-re.dir/bsearch-re.c.s
+.PHONY : bsearch-re.c.s
 
-tile.obj: tile.c.obj
-.PHONY : tile.obj
+fib-array.obj: fib-array.c.obj
+.PHONY : fib-array.obj
 
 # target to build an object file
-tile.c.obj:
-	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\tile.dir\build.make 6-recursion/CMakeFiles/tile.dir/tile.c.obj
-.PHONY : tile.c.obj
+fib-array.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\fib-array.dir\build.make 6-recursion/CMakeFiles/fib-array.dir/fib-array.c.obj
+.PHONY : fib-array.c.obj
 
-tile.i: tile.c.i
-.PHONY : tile.i
+fib-array.i: fib-array.c.i
+.PHONY : fib-array.i
 
 # target to preprocess a source file
-tile.c.i:
-	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\tile.dir\build.make 6-recursion/CMakeFiles/tile.dir/tile.c.i
-.PHONY : tile.c.i
+fib-array.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\fib-array.dir\build.make 6-recursion/CMakeFiles/fib-array.dir/fib-array.c.i
+.PHONY : fib-array.c.i
 
-tile.s: tile.c.s
-.PHONY : tile.s
+fib-array.s: fib-array.c.s
+.PHONY : fib-array.s
 
 # target to generate assembly for a file
-tile.c.s:
-	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\tile.dir\build.make 6-recursion/CMakeFiles/tile.dir/tile.c.s
-.PHONY : tile.c.s
+fib-array.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\fib-array.dir\build.make 6-recursion/CMakeFiles/fib-array.dir/fib-array.c.s
+.PHONY : fib-array.c.s
 
-yanghui.obj: yanghui.c.obj
-.PHONY : yanghui.obj
+fib-iter.obj: fib-iter.c.obj
+.PHONY : fib-iter.obj
 
 # target to build an object file
-yanghui.c.obj:
-	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\yanghui.dir\build.make 6-recursion/CMakeFiles/yanghui.dir/yanghui.c.obj
-.PHONY : yanghui.c.obj
+fib-iter.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\fib-iter.dir\build.make 6-recursion/CMakeFiles/fib-iter.dir/fib-iter.c.obj
+.PHONY : fib-iter.c.obj
 
-yanghui.i: yanghui.c.i
-.PHONY : yanghui.i
+fib-iter.i: fib-iter.c.i
+.PHONY : fib-iter.i
 
 # target to preprocess a source file
-yanghui.c.i:
-	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\yanghui.dir\build.make 6-recursion/CMakeFiles/yanghui.dir/yanghui.c.i
-.PHONY : yanghui.c.i
+fib-iter.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\fib-iter.dir\build.make 6-recursion/CMakeFiles/fib-iter.dir/fib-iter.c.i
+.PHONY : fib-iter.c.i
 
-yanghui.s: yanghui.c.s
-.PHONY : yanghui.s
+fib-iter.s: fib-iter.c.s
+.PHONY : fib-iter.s
 
 # target to generate assembly for a file
-yanghui.c.s:
-	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\yanghui.dir\build.make 6-recursion/CMakeFiles/yanghui.dir/yanghui.c.s
-.PHONY : yanghui.c.s
+fib-iter.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\fib-iter.dir\build.make 6-recursion/CMakeFiles/fib-iter.dir/fib-iter.c.s
+.PHONY : fib-iter.c.s
+
+fib-re.obj: fib-re.c.obj
+.PHONY : fib-re.obj
+
+# target to build an object file
+fib-re.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\fib.dir\build.make 6-recursion/CMakeFiles/fib.dir/fib-re.c.obj
+.PHONY : fib-re.c.obj
+
+fib-re.i: fib-re.c.i
+.PHONY : fib-re.i
+
+# target to preprocess a source file
+fib-re.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\fib.dir\build.make 6-recursion/CMakeFiles/fib.dir/fib-re.c.i
+.PHONY : fib-re.c.i
+
+fib-re.s: fib-re.c.s
+.PHONY : fib-re.s
+
+# target to generate assembly for a file
+fib-re.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\fib.dir\build.make 6-recursion/CMakeFiles/fib.dir/fib-re.c.s
+.PHONY : fib-re.c.s
+
+gcd-euclid-iter.obj: gcd-euclid-iter.c.obj
+.PHONY : gcd-euclid-iter.obj
+
+# target to build an object file
+gcd-euclid-iter.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclid-iter.dir\build.make 6-recursion/CMakeFiles/gcd-euclid-iter.dir/gcd-euclid-iter.c.obj
+.PHONY : gcd-euclid-iter.c.obj
+
+gcd-euclid-iter.i: gcd-euclid-iter.c.i
+.PHONY : gcd-euclid-iter.i
+
+# target to preprocess a source file
+gcd-euclid-iter.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclid-iter.dir\build.make 6-recursion/CMakeFiles/gcd-euclid-iter.dir/gcd-euclid-iter.c.i
+.PHONY : gcd-euclid-iter.c.i
+
+gcd-euclid-iter.s: gcd-euclid-iter.c.s
+.PHONY : gcd-euclid-iter.s
+
+# target to generate assembly for a file
+gcd-euclid-iter.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclid-iter.dir\build.make 6-recursion/CMakeFiles/gcd-euclid-iter.dir/gcd-euclid-iter.c.s
+.PHONY : gcd-euclid-iter.c.s
+
+gcd-euclid-re.obj: gcd-euclid-re.c.obj
+.PHONY : gcd-euclid-re.obj
+
+# target to build an object file
+gcd-euclid-re.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclid-re.dir\build.make 6-recursion/CMakeFiles/gcd-euclid-re.dir/gcd-euclid-re.c.obj
+.PHONY : gcd-euclid-re.c.obj
+
+gcd-euclid-re.i: gcd-euclid-re.c.i
+.PHONY : gcd-euclid-re.i
+
+# target to preprocess a source file
+gcd-euclid-re.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclid-re.dir\build.make 6-recursion/CMakeFiles/gcd-euclid-re.dir/gcd-euclid-re.c.i
+.PHONY : gcd-euclid-re.c.i
+
+gcd-euclid-re.s: gcd-euclid-re.c.s
+.PHONY : gcd-euclid-re.s
+
+# target to generate assembly for a file
+gcd-euclid-re.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclid-re.dir\build.make 6-recursion/CMakeFiles/gcd-euclid-re.dir/gcd-euclid-re.c.s
+.PHONY : gcd-euclid-re.c.s
+
+gcd-euclidean-iter.obj: gcd-euclidean-iter.c.obj
+.PHONY : gcd-euclidean-iter.obj
+
+# target to build an object file
+gcd-euclidean-iter.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclidean-iter.dir\build.make 6-recursion/CMakeFiles/gcd-euclidean-iter.dir/gcd-euclidean-iter.c.obj
+.PHONY : gcd-euclidean-iter.c.obj
+
+gcd-euclidean-iter.i: gcd-euclidean-iter.c.i
+.PHONY : gcd-euclidean-iter.i
+
+# target to preprocess a source file
+gcd-euclidean-iter.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclidean-iter.dir\build.make 6-recursion/CMakeFiles/gcd-euclidean-iter.dir/gcd-euclidean-iter.c.i
+.PHONY : gcd-euclidean-iter.c.i
+
+gcd-euclidean-iter.s: gcd-euclidean-iter.c.s
+.PHONY : gcd-euclidean-iter.s
+
+# target to generate assembly for a file
+gcd-euclidean-iter.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclidean-iter.dir\build.make 6-recursion/CMakeFiles/gcd-euclidean-iter.dir/gcd-euclidean-iter.c.s
+.PHONY : gcd-euclidean-iter.c.s
+
+gcd-euclidean-re.obj: gcd-euclidean-re.c.obj
+.PHONY : gcd-euclidean-re.obj
+
+# target to build an object file
+gcd-euclidean-re.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclidean-re.dir\build.make 6-recursion/CMakeFiles/gcd-euclidean-re.dir/gcd-euclidean-re.c.obj
+.PHONY : gcd-euclidean-re.c.obj
+
+gcd-euclidean-re.i: gcd-euclidean-re.c.i
+.PHONY : gcd-euclidean-re.i
+
+# target to preprocess a source file
+gcd-euclidean-re.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclidean-re.dir\build.make 6-recursion/CMakeFiles/gcd-euclidean-re.dir/gcd-euclidean-re.c.i
+.PHONY : gcd-euclidean-re.c.i
+
+gcd-euclidean-re.s: gcd-euclidean-re.c.s
+.PHONY : gcd-euclidean-re.s
+
+# target to generate assembly for a file
+gcd-euclidean-re.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclidean-re.dir\build.make 6-recursion/CMakeFiles/gcd-euclidean-re.dir/gcd-euclidean-re.c.s
+.PHONY : gcd-euclidean-re.c.s
+
+merge-sort.obj: merge-sort.c.obj
+.PHONY : merge-sort.obj
+
+# target to build an object file
+merge-sort.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\merge-sort.dir\build.make 6-recursion/CMakeFiles/merge-sort.dir/merge-sort.c.obj
+.PHONY : merge-sort.c.obj
+
+merge-sort.i: merge-sort.c.i
+.PHONY : merge-sort.i
+
+# target to preprocess a source file
+merge-sort.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\merge-sort.dir\build.make 6-recursion/CMakeFiles/merge-sort.dir/merge-sort.c.i
+.PHONY : merge-sort.c.i
+
+merge-sort.s: merge-sort.c.s
+.PHONY : merge-sort.s
+
+# target to generate assembly for a file
+merge-sort.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\merge-sort.dir\build.make 6-recursion/CMakeFiles/merge-sort.dir/merge-sort.c.s
+.PHONY : merge-sort.c.s
+
+min-re.obj: min-re.c.obj
+.PHONY : min-re.obj
+
+# target to build an object file
+min-re.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\min-re.dir\build.make 6-recursion/CMakeFiles/min-re.dir/min-re.c.obj
+.PHONY : min-re.c.obj
+
+min-re.i: min-re.c.i
+.PHONY : min-re.i
+
+# target to preprocess a source file
+min-re.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\min-re.dir\build.make 6-recursion/CMakeFiles/min-re.dir/min-re.c.i
+.PHONY : min-re.c.i
+
+min-re.s: min-re.c.s
+.PHONY : min-re.s
+
+# target to generate assembly for a file
+min-re.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\min-re.dir\build.make 6-recursion/CMakeFiles/min-re.dir/min-re.c.s
+.PHONY : min-re.c.s
+
+sum-re.obj: sum-re.c.obj
+.PHONY : sum-re.obj
+
+# target to build an object file
+sum-re.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\sum-re.dir\build.make 6-recursion/CMakeFiles/sum-re.dir/sum-re.c.obj
+.PHONY : sum-re.c.obj
+
+sum-re.i: sum-re.c.i
+.PHONY : sum-re.i
+
+# target to preprocess a source file
+sum-re.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\sum-re.dir\build.make 6-recursion/CMakeFiles/sum-re.dir/sum-re.c.i
+.PHONY : sum-re.c.i
+
+sum-re.s: sum-re.c.s
+.PHONY : sum-re.s
+
+# target to generate assembly for a file
+sum-re.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\sum-re.dir\build.make 6-recursion/CMakeFiles/sum-re.dir/sum-re.c.s
+.PHONY : sum-re.c.s
 
 # Help Target
 help:
@@ -237,18 +541,50 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... plagiarize
-	@echo ... tile
-	@echo ... yanghui
-	@echo ... plagiarize.obj
-	@echo ... plagiarize.i
-	@echo ... plagiarize.s
-	@echo ... tile.obj
-	@echo ... tile.i
-	@echo ... tile.s
-	@echo ... yanghui.obj
-	@echo ... yanghui.i
-	@echo ... yanghui.s
+	@echo ... bsearch-re
+	@echo ... fib
+	@echo ... fib-array
+	@echo ... fib-iter
+	@echo ... gcd-euclid-iter
+	@echo ... gcd-euclid-re
+	@echo ... gcd-euclidean-iter
+	@echo ... gcd-euclidean-re
+	@echo ... merge-sort
+	@echo ... min-re
+	@echo ... sum-re
+	@echo ... bsearch-re.obj
+	@echo ... bsearch-re.i
+	@echo ... bsearch-re.s
+	@echo ... fib-array.obj
+	@echo ... fib-array.i
+	@echo ... fib-array.s
+	@echo ... fib-iter.obj
+	@echo ... fib-iter.i
+	@echo ... fib-iter.s
+	@echo ... fib-re.obj
+	@echo ... fib-re.i
+	@echo ... fib-re.s
+	@echo ... gcd-euclid-iter.obj
+	@echo ... gcd-euclid-iter.i
+	@echo ... gcd-euclid-iter.s
+	@echo ... gcd-euclid-re.obj
+	@echo ... gcd-euclid-re.i
+	@echo ... gcd-euclid-re.s
+	@echo ... gcd-euclidean-iter.obj
+	@echo ... gcd-euclidean-iter.i
+	@echo ... gcd-euclidean-iter.s
+	@echo ... gcd-euclidean-re.obj
+	@echo ... gcd-euclidean-re.i
+	@echo ... gcd-euclidean-re.s
+	@echo ... merge-sort.obj
+	@echo ... merge-sort.i
+	@echo ... merge-sort.s
+	@echo ... min-re.obj
+	@echo ... min-re.i
+	@echo ... min-re.s
+	@echo ... sum-re.obj
+	@echo ... sum-re.i
+	@echo ... sum-re.s
 .PHONY : help
 
 

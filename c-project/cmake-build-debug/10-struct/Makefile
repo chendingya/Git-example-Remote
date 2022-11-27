@@ -64,16 +64,6 @@ CMAKE_BINARY_DIR = E:\c-project\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -83,6 +73,16 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -116,6 +116,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+10-struct/CMakeFiles/musician.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10-struct/CMakeFiles/musician.dir/rule
+.PHONY : 10-struct/CMakeFiles/musician.dir/rule
+
+# Convenience name for target.
+musician: 10-struct/CMakeFiles/musician.dir/rule
+.PHONY : musician
+
+# fast build rule for target.
+musician/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\musician.dir\build.make 10-struct/CMakeFiles/musician.dir/build
+.PHONY : musician/fast
+
+# Convenience name for target.
 10-struct/CMakeFiles/echo.dir/rule:
 	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10-struct/CMakeFiles/echo.dir/rule
 .PHONY : 10-struct/CMakeFiles/echo.dir/rule
@@ -128,6 +142,58 @@ echo: 10-struct/CMakeFiles/echo.dir/rule
 echo/fast:
 	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\echo.dir\build.make 10-struct/CMakeFiles/echo.dir/build
 .PHONY : echo/fast
+
+# Convenience name for target.
+10-struct/CMakeFiles/echo-flag.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10-struct/CMakeFiles/echo-flag.dir/rule
+.PHONY : 10-struct/CMakeFiles/echo-flag.dir/rule
+
+# Convenience name for target.
+echo-flag: 10-struct/CMakeFiles/echo-flag.dir/rule
+.PHONY : echo-flag
+
+# fast build rule for target.
+echo-flag/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\echo-flag.dir\build.make 10-struct/CMakeFiles/echo-flag.dir/build
+.PHONY : echo-flag/fast
+
+# Convenience name for target.
+10-struct/CMakeFiles/sort.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10-struct/CMakeFiles/sort.dir/rule
+.PHONY : 10-struct/CMakeFiles/sort.dir/rule
+
+# Convenience name for target.
+sort: 10-struct/CMakeFiles/sort.dir/rule
+.PHONY : sort
+
+# fast build rule for target.
+sort/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\sort.dir\build.make 10-struct/CMakeFiles/sort.dir/build
+.PHONY : sort/fast
+
+echo-flag.obj: echo-flag.c.obj
+.PHONY : echo-flag.obj
+
+# target to build an object file
+echo-flag.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\echo-flag.dir\build.make 10-struct/CMakeFiles/echo-flag.dir/echo-flag.c.obj
+.PHONY : echo-flag.c.obj
+
+echo-flag.i: echo-flag.c.i
+.PHONY : echo-flag.i
+
+# target to preprocess a source file
+echo-flag.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\echo-flag.dir\build.make 10-struct/CMakeFiles/echo-flag.dir/echo-flag.c.i
+.PHONY : echo-flag.c.i
+
+echo-flag.s: echo-flag.c.s
+.PHONY : echo-flag.s
+
+# target to generate assembly for a file
+echo-flag.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\echo-flag.dir\build.make 10-struct/CMakeFiles/echo-flag.dir/echo-flag.c.s
+.PHONY : echo-flag.c.s
 
 echo.obj: echo.c.obj
 .PHONY : echo.obj
@@ -153,6 +219,54 @@ echo.c.s:
 	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\echo.dir\build.make 10-struct/CMakeFiles/echo.dir/echo.c.s
 .PHONY : echo.c.s
 
+musician.obj: musician.c.obj
+.PHONY : musician.obj
+
+# target to build an object file
+musician.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\musician.dir\build.make 10-struct/CMakeFiles/musician.dir/musician.c.obj
+.PHONY : musician.c.obj
+
+musician.i: musician.c.i
+.PHONY : musician.i
+
+# target to preprocess a source file
+musician.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\musician.dir\build.make 10-struct/CMakeFiles/musician.dir/musician.c.i
+.PHONY : musician.c.i
+
+musician.s: musician.c.s
+.PHONY : musician.s
+
+# target to generate assembly for a file
+musician.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\musician.dir\build.make 10-struct/CMakeFiles/musician.dir/musician.c.s
+.PHONY : musician.c.s
+
+sort.obj: sort.c.obj
+.PHONY : sort.obj
+
+# target to build an object file
+sort.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\sort.dir\build.make 10-struct/CMakeFiles/sort.dir/sort.c.obj
+.PHONY : sort.c.obj
+
+sort.i: sort.c.i
+.PHONY : sort.i
+
+# target to preprocess a source file
+sort.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\sort.dir\build.make 10-struct/CMakeFiles/sort.dir/sort.c.i
+.PHONY : sort.c.i
+
+sort.s: sort.c.s
+.PHONY : sort.s
+
+# target to generate assembly for a file
+sort.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\sort.dir\build.make 10-struct/CMakeFiles/sort.dir/sort.c.s
+.PHONY : sort.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -162,9 +276,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... echo
+	@echo ... echo-flag
+	@echo ... musician
+	@echo ... sort
+	@echo ... echo-flag.obj
+	@echo ... echo-flag.i
+	@echo ... echo-flag.s
 	@echo ... echo.obj
 	@echo ... echo.i
 	@echo ... echo.s
+	@echo ... musician.obj
+	@echo ... musician.i
+	@echo ... musician.s
+	@echo ... sort.obj
+	@echo ... sort.i
+	@echo ... sort.s
 .PHONY : help
 
 

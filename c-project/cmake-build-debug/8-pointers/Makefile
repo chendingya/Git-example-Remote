@@ -115,6 +115,120 @@ depend:
 	cd /d E:\c-project\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+8-pointers/CMakeFiles/pointer.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 8-pointers/CMakeFiles/pointer.dir/rule
+.PHONY : 8-pointers/CMakeFiles/pointer.dir/rule
+
+# Convenience name for target.
+pointer: 8-pointers/CMakeFiles/pointer.dir/rule
+.PHONY : pointer
+
+# fast build rule for target.
+pointer/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\pointer.dir\build.make 8-pointers/CMakeFiles/pointer.dir/build
+.PHONY : pointer/fast
+
+# Convenience name for target.
+8-pointers/CMakeFiles/selection_sort.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 8-pointers/CMakeFiles/selection_sort.dir/rule
+.PHONY : 8-pointers/CMakeFiles/selection_sort.dir/rule
+
+# Convenience name for target.
+selection_sort: 8-pointers/CMakeFiles/selection_sort.dir/rule
+.PHONY : selection_sort
+
+# fast build rule for target.
+selection_sort/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\selection_sort.dir\build.make 8-pointers/CMakeFiles/selection_sort.dir/build
+.PHONY : selection_sort/fast
+
+# Convenience name for target.
+8-pointers/CMakeFiles/strlen.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 8-pointers/CMakeFiles/strlen.dir/rule
+.PHONY : 8-pointers/CMakeFiles/strlen.dir/rule
+
+# Convenience name for target.
+strlen: 8-pointers/CMakeFiles/strlen.dir/rule
+.PHONY : strlen
+
+# fast build rule for target.
+strlen/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\strlen.dir\build.make 8-pointers/CMakeFiles/strlen.dir/build
+.PHONY : strlen/fast
+
+pointer.obj: pointer.c.obj
+.PHONY : pointer.obj
+
+# target to build an object file
+pointer.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\pointer.dir\build.make 8-pointers/CMakeFiles/pointer.dir/pointer.c.obj
+.PHONY : pointer.c.obj
+
+pointer.i: pointer.c.i
+.PHONY : pointer.i
+
+# target to preprocess a source file
+pointer.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\pointer.dir\build.make 8-pointers/CMakeFiles/pointer.dir/pointer.c.i
+.PHONY : pointer.c.i
+
+pointer.s: pointer.c.s
+.PHONY : pointer.s
+
+# target to generate assembly for a file
+pointer.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\pointer.dir\build.make 8-pointers/CMakeFiles/pointer.dir/pointer.c.s
+.PHONY : pointer.c.s
+
+selection-sort.obj: selection-sort.c.obj
+.PHONY : selection-sort.obj
+
+# target to build an object file
+selection-sort.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\selection_sort.dir\build.make 8-pointers/CMakeFiles/selection_sort.dir/selection-sort.c.obj
+.PHONY : selection-sort.c.obj
+
+selection-sort.i: selection-sort.c.i
+.PHONY : selection-sort.i
+
+# target to preprocess a source file
+selection-sort.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\selection_sort.dir\build.make 8-pointers/CMakeFiles/selection_sort.dir/selection-sort.c.i
+.PHONY : selection-sort.c.i
+
+selection-sort.s: selection-sort.c.s
+.PHONY : selection-sort.s
+
+# target to generate assembly for a file
+selection-sort.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\selection_sort.dir\build.make 8-pointers/CMakeFiles/selection_sort.dir/selection-sort.c.s
+.PHONY : selection-sort.c.s
+
+strlen.obj: strlen.c.obj
+.PHONY : strlen.obj
+
+# target to build an object file
+strlen.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\strlen.dir\build.make 8-pointers/CMakeFiles/strlen.dir/strlen.c.obj
+.PHONY : strlen.c.obj
+
+strlen.i: strlen.c.i
+.PHONY : strlen.i
+
+# target to preprocess a source file
+strlen.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\strlen.dir\build.make 8-pointers/CMakeFiles/strlen.dir/strlen.c.i
+.PHONY : strlen.c.i
+
+strlen.s: strlen.c.s
+.PHONY : strlen.s
+
+# target to generate assembly for a file
+strlen.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\strlen.dir\build.make 8-pointers/CMakeFiles/strlen.dir/strlen.c.s
+.PHONY : strlen.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -123,6 +237,18 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... pointer
+	@echo ... selection_sort
+	@echo ... strlen
+	@echo ... pointer.obj
+	@echo ... pointer.i
+	@echo ... pointer.s
+	@echo ... selection-sort.obj
+	@echo ... selection-sort.i
+	@echo ... selection-sort.s
+	@echo ... strlen.obj
+	@echo ... strlen.i
+	@echo ... strlen.s
 .PHONY : help
 
 

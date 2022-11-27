@@ -1065,6 +1065,149 @@ decomposition/fast:
 .PHONY : decomposition/fast
 
 #=============================================================================
+# Target rules for targets named fib-iter
+
+# Build rule for target.
+fib-iter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fib-iter
+.PHONY : fib-iter
+
+# fast build rule for target.
+fib-iter/fast:
+	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\fib-iter.dir\build.make 6-recursion/CMakeFiles/fib-iter.dir/build
+.PHONY : fib-iter/fast
+
+#=============================================================================
+# Target rules for targets named min-re
+
+# Build rule for target.
+min-re: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 min-re
+.PHONY : min-re
+
+# fast build rule for target.
+min-re/fast:
+	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\min-re.dir\build.make 6-recursion/CMakeFiles/min-re.dir/build
+.PHONY : min-re/fast
+
+#=============================================================================
+# Target rules for targets named gcd-euclid-re
+
+# Build rule for target.
+gcd-euclid-re: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gcd-euclid-re
+.PHONY : gcd-euclid-re
+
+# fast build rule for target.
+gcd-euclid-re/fast:
+	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclid-re.dir\build.make 6-recursion/CMakeFiles/gcd-euclid-re.dir/build
+.PHONY : gcd-euclid-re/fast
+
+#=============================================================================
+# Target rules for targets named sum-re
+
+# Build rule for target.
+sum-re: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sum-re
+.PHONY : sum-re
+
+# fast build rule for target.
+sum-re/fast:
+	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\sum-re.dir\build.make 6-recursion/CMakeFiles/sum-re.dir/build
+.PHONY : sum-re/fast
+
+#=============================================================================
+# Target rules for targets named fib
+
+# Build rule for target.
+fib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fib
+.PHONY : fib
+
+# fast build rule for target.
+fib/fast:
+	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\fib.dir\build.make 6-recursion/CMakeFiles/fib.dir/build
+.PHONY : fib/fast
+
+#=============================================================================
+# Target rules for targets named fib-array
+
+# Build rule for target.
+fib-array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fib-array
+.PHONY : fib-array
+
+# fast build rule for target.
+fib-array/fast:
+	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\fib-array.dir\build.make 6-recursion/CMakeFiles/fib-array.dir/build
+.PHONY : fib-array/fast
+
+#=============================================================================
+# Target rules for targets named gcd-euclid-iter
+
+# Build rule for target.
+gcd-euclid-iter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gcd-euclid-iter
+.PHONY : gcd-euclid-iter
+
+# fast build rule for target.
+gcd-euclid-iter/fast:
+	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclid-iter.dir\build.make 6-recursion/CMakeFiles/gcd-euclid-iter.dir/build
+.PHONY : gcd-euclid-iter/fast
+
+#=============================================================================
+# Target rules for targets named gcd-euclidean-iter
+
+# Build rule for target.
+gcd-euclidean-iter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gcd-euclidean-iter
+.PHONY : gcd-euclidean-iter
+
+# fast build rule for target.
+gcd-euclidean-iter/fast:
+	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclidean-iter.dir\build.make 6-recursion/CMakeFiles/gcd-euclidean-iter.dir/build
+.PHONY : gcd-euclidean-iter/fast
+
+#=============================================================================
+# Target rules for targets named gcd-euclidean-re
+
+# Build rule for target.
+gcd-euclidean-re: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gcd-euclidean-re
+.PHONY : gcd-euclidean-re
+
+# fast build rule for target.
+gcd-euclidean-re/fast:
+	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclidean-re.dir\build.make 6-recursion/CMakeFiles/gcd-euclidean-re.dir/build
+.PHONY : gcd-euclidean-re/fast
+
+#=============================================================================
+# Target rules for targets named bsearch-re
+
+# Build rule for target.
+bsearch-re: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 bsearch-re
+.PHONY : bsearch-re
+
+# fast build rule for target.
+bsearch-re/fast:
+	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\bsearch-re.dir\build.make 6-recursion/CMakeFiles/bsearch-re.dir/build
+.PHONY : bsearch-re/fast
+
+#=============================================================================
+# Target rules for targets named merge-sort
+
+# Build rule for target.
+merge-sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 merge-sort
+.PHONY : merge-sort
+
+# fast build rule for target.
+merge-sort/fast:
+	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\merge-sort.dir\build.make 6-recursion/CMakeFiles/merge-sort.dir/build
+.PHONY : merge-sort/fast
+
+#=============================================================================
 # Target rules for targets named bizuo
 
 # Build rule for target.
@@ -1154,6 +1297,110 @@ wine: cmake_check_build_system
 wine/fast:
 	$(MAKE) $(MAKESILENT) -f 7-assignments\CMakeFiles\wine.dir\build.make 7-assignments/CMakeFiles/wine.dir/build
 .PHONY : wine/fast
+
+#=============================================================================
+# Target rules for targets named loop
+
+# Build rule for target.
+loop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 loop
+.PHONY : loop
+
+# fast build rule for target.
+loop/fast:
+	$(MAKE) $(MAKESILENT) -f 7-data-types\CMakeFiles\loop.dir\build.make 7-data-types/CMakeFiles/loop.dir/build
+.PHONY : loop/fast
+
+#=============================================================================
+# Target rules for targets named fp
+
+# Build rule for target.
+fp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fp
+.PHONY : fp
+
+# fast build rule for target.
+fp/fast:
+	$(MAKE) $(MAKESILENT) -f 7-data-types\CMakeFiles\fp.dir\build.make 7-data-types/CMakeFiles/fp.dir/build
+.PHONY : fp/fast
+
+#=============================================================================
+# Target rules for targets named sums
+
+# Build rule for target.
+sums: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sums
+.PHONY : sums
+
+# fast build rule for target.
+sums/fast:
+	$(MAKE) $(MAKESILENT) -f 7-data-types\CMakeFiles\sums.dir\build.make 7-data-types/CMakeFiles/sums.dir/build
+.PHONY : sums/fast
+
+#=============================================================================
+# Target rules for targets named compare
+
+# Build rule for target.
+compare: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 compare
+.PHONY : compare
+
+# fast build rule for target.
+compare/fast:
+	$(MAKE) $(MAKESILENT) -f 7-data-types\CMakeFiles\compare.dir\build.make 7-data-types/CMakeFiles/compare.dir/build
+.PHONY : compare/fast
+
+#=============================================================================
+# Target rules for targets named rand
+
+# Build rule for target.
+rand: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 rand
+.PHONY : rand
+
+# fast build rule for target.
+rand/fast:
+	$(MAKE) $(MAKESILENT) -f 7-data-types\CMakeFiles\rand.dir\build.make 7-data-types/CMakeFiles/rand.dir/build
+.PHONY : rand/fast
+
+#=============================================================================
+# Target rules for targets named pointer
+
+# Build rule for target.
+pointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pointer
+.PHONY : pointer
+
+# fast build rule for target.
+pointer/fast:
+	$(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\pointer.dir\build.make 8-pointers/CMakeFiles/pointer.dir/build
+.PHONY : pointer/fast
+
+#=============================================================================
+# Target rules for targets named selection_sort
+
+# Build rule for target.
+selection_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 selection_sort
+.PHONY : selection_sort
+
+# fast build rule for target.
+selection_sort/fast:
+	$(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\selection_sort.dir\build.make 8-pointers/CMakeFiles/selection_sort.dir/build
+.PHONY : selection_sort/fast
+
+#=============================================================================
+# Target rules for targets named strlen
+
+# Build rule for target.
+strlen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 strlen
+.PHONY : strlen
+
+# fast build rule for target.
+strlen/fast:
+	$(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\strlen.dir\build.make 8-pointers/CMakeFiles/strlen.dir/build
+.PHONY : strlen/fast
 
 #=============================================================================
 # Target rules for targets named title
@@ -1247,6 +1494,19 @@ split/fast:
 .PHONY : 2048/fast
 
 #=============================================================================
+# Target rules for targets named musician
+
+# Build rule for target.
+musician: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 musician
+.PHONY : musician
+
+# fast build rule for target.
+musician/fast:
+	$(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\musician.dir\build.make 10-struct/CMakeFiles/musician.dir/build
+.PHONY : musician/fast
+
+#=============================================================================
 # Target rules for targets named echo
 
 # Build rule for target.
@@ -1258,6 +1518,45 @@ echo: cmake_check_build_system
 echo/fast:
 	$(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\echo.dir\build.make 10-struct/CMakeFiles/echo.dir/build
 .PHONY : echo/fast
+
+#=============================================================================
+# Target rules for targets named echo-flag
+
+# Build rule for target.
+echo-flag: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 echo-flag
+.PHONY : echo-flag
+
+# fast build rule for target.
+echo-flag/fast:
+	$(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\echo-flag.dir\build.make 10-struct/CMakeFiles/echo-flag.dir/build
+.PHONY : echo-flag/fast
+
+#=============================================================================
+# Target rules for targets named sort
+
+# Build rule for target.
+sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sort
+.PHONY : sort
+
+# fast build rule for target.
+sort/fast:
+	$(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\sort.dir\build.make 10-struct/CMakeFiles/sort.dir/build
+.PHONY : sort/fast
+
+#=============================================================================
+# Target rules for targets named josephus-linkedlist
+
+# Build rule for target.
+josephus-linkedlist: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 josephus-linkedlist
+.PHONY : josephus-linkedlist
+
+# fast build rule for target.
+josephus-linkedlist/fast:
+	$(MAKE) $(MAKESILENT) -f 11-linkedlist\CMakeFiles\josephus-linkedlist.dir\build.make 11-linkedlist/CMakeFiles/josephus-linkedlist.dir/build
+.PHONY : josephus-linkedlist/fast
 
 #=============================================================================
 # Target rules for targets named smallest
@@ -1525,11 +1824,13 @@ help:
 	@echo ... binaryToInteger
 	@echo ... bizuo
 	@echo ... brackets
+	@echo ... bsearch-re
 	@echo ... calculator
 	@echo ... change
 	@echo ... change1
 	@echo ... check
 	@echo ... circle
+	@echo ... compare
 	@echo ... cube
 	@echo ... decomposition
 	@echo ... digits
@@ -1537,11 +1838,20 @@ help:
 	@echo ... division-method
 	@echo ... dizhisuoxie
 	@echo ... echo
+	@echo ... echo-flag
 	@echo ... equation
 	@echo ... equation1
 	@echo ... factorial
+	@echo ... fib
+	@echo ... fib-array
+	@echo ... fib-iter
 	@echo ... flip
+	@echo ... fp
 	@echo ... game-of-life
+	@echo ... gcd-euclid-iter
+	@echo ... gcd-euclid-re
+	@echo ... gcd-euclidean-iter
+	@echo ... gcd-euclidean-re
 	@echo ... gray
 	@echo ... gray1
 	@echo ... guess
@@ -1554,21 +1864,26 @@ help:
 	@echo ... inverse
 	@echo ... inverse1
 	@echo ... josephus
+	@echo ... josephus-linkedlist
 	@echo ... lcp
 	@echo ... leap
 	@echo ... leap-if-else-not
 	@echo ... leap-year
+	@echo ... loop
 	@echo ... magic_square
 	@echo ... max
 	@echo ... max_diff
 	@echo ... merge
 	@echo ... merge-1
+	@echo ... merge-sort
 	@echo ... min
 	@echo ... min-of-three
 	@echo ... min-of-two
+	@echo ... min-re
 	@echo ... mines
 	@echo ... mol
 	@echo ... money
+	@echo ... musician
 	@echo ... next-permutation
 	@echo ... once
 	@echo ... palindrome
@@ -1578,26 +1893,33 @@ help:
 	@echo ... plagiarize
 	@echo ... planck
 	@echo ... planck1
+	@echo ... pointer
 	@echo ... pour
 	@echo ... powerof2
 	@echo ... primes
 	@echo ... quine1
 	@echo ... radix
+	@echo ... rand
 	@echo ... rotate
 	@echo ... save
 	@echo ... selection-sort
+	@echo ... selection_sort
 	@echo ... series
 	@echo ... smallest
+	@echo ... sort
 	@echo ... sphere
 	@echo ... split
 	@echo ... stack
 	@echo ... stars-pyramid
 	@echo ... statistics
 	@echo ... stringcat
+	@echo ... strlen
 	@echo ... substr
 	@echo ... sudoku
 	@echo ... sum
 	@echo ... sum-A
+	@echo ... sum-re
+	@echo ... sums
 	@echo ... ternary-search
 	@echo ... test2
 	@echo ... tile
