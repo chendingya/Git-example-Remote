@@ -1,0 +1,40 @@
+
+R	cpp:S3229"7field '_shuxing' will be initialized after field '_red'(ğî—W8€ö’üÇ0
+Q	cpp:S3229"6field '_blue' will be initialized after field '_green'(ğî—W8€ö’üÇ0
+h	cpp:S5276!"Gimplicit conversion loses floating-point precision: 'double' to 'float'(úÉ¿¹ûÿÿÿÿ8‡…ƒıÇ0
+4	cpp:S1481U"unused variable 'p'(Ô¨¨ïşÿÿÿÿ8¶ÓßıÇ0
+4	cpp:S1481b"unused variable 'p'(Ô¨¨ïşÿÿÿÿ8ÌºàşÇ0
+K	cpp:S5414"*Don't mix public and private data members.(´äºÓûÿÿÿÿ8Ó¼íûÇ0
+C	cpp:S5817#"'This function should be declared const.(è§©¯8í¦ğüÇ0
+Ncpp:S106$".Replace this usage of "std::cout" by a logger.(Õéªıÿÿÿÿ8ö’ÑúÇ0
+p	cpp:S3776."TRefactor this function to reduce its Cognitive Complexity from 93 to the 25 allowed.(Ôˆ™“8ü‹âúÇ0
+hcpp:S134Y"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Õòí¿8…ïĞıÇ0
+mcpp:S134o"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Œ¦Ä¦üÿÿÿÿ8…ïĞıÇ0
+hcpp:S134w"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(¼¨ğ8…ïĞıÇ0
+icpp:S134‘"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(æã©ì8…í¾‚È0
+ncpp:S134¨"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(¡©òşûÿÿÿÿ8…í¾‚È0
+ncpp:S134«"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(åğÔ‚úÿÿÿÿ8§íâ‚È0
+r	cpp:S5025C"QReplace the use of "new" with an operation that automatically manages the memory.(§Ä€‡ùÿÿÿÿ8—ïĞıÇ0
+m	cpp:S5025F"QReplace the use of "new" with an operation that automatically manages the memory.(èàú£8˜ïĞıÇ0
+r	cpp:S5025I"QReplace the use of "new" with an operation that automatically manages the memory.(Ñ¿êáùÿÿÿÿ8˜ïĞıÇ0
+C	cpp:S5827P"'Replace the redundant type with "auto".(™ôÀ®8˜ïĞıÇ0
+m	cpp:S5025P"QReplace the use of "new" with an operation that automatically manages the memory.(™ôÀ®8™ïĞıÇ0
+_	cpp:S5566Y"CChange this raw for-loop to a range for-loop or an "std::for_each".(Õòí¿8™ïĞıÇ0
+d	cpp:S5566o"CChange this raw for-loop to a range for-loop or an "std::for_each".(Œ¦Ä¦üÿÿÿÿ8›ïĞıÇ0
+i!cpp:SingleDeclarationPerStatementq"0Define each identifier in a dedicated statement.(ÆşøÄüÿÿÿÿ8›ïĞıÇ0
+_	cpp:S5566w"CChange this raw for-loop to a range for-loop or an "std::for_each".(¼¨ğ8œïĞıÇ0
+i!cpp:SingleDeclarationPerStatementy"0Define each identifier in a dedicated statement.(ÆşøÄüÿÿÿÿ8ïĞıÇ0
+^	cpp:S5566{"CChange this raw for-loop to a range for-loop or an "std::for_each".(ü½ØO8ïĞıÇ0
+`	cpp:S5566Š"CChange this raw for-loop to a range for-loop or an "std::for_each".(è¬à8¡ÍÄ‚È0
+Ocpp:S106š".Replace this usage of "std::cout" by a logger.(Ìîæùÿÿÿÿ8í’Ç‚È0
+`	cpp:S5566¡"CChange this raw for-loop to a range for-loop or an "std::for_each".(è¬à8¼ËŞ‚È0
+N	cpp:S1066¬"1Merge this "if" statement with the enclosing one.(æã©ì8Àíâ‚È0
+Ocpp:S106¶".Replace this usage of "std::cout" by a logger.(Ìîæùÿÿÿÿ8ÕïÚ‚È0
+‡	cpp:S3230"lDo not use the constructor's initializer list for data member "_blue". Use the in-class initializer instead.(ğî—W8¡÷’üÇ0
+ˆ	cpp:S3230"mDo not use the constructor's initializer list for data member "_green". Use the in-class initializer instead.(ğî—W8¡÷’üÇ0
+†	cpp:S3230"kDo not use the constructor's initializer list for data member "_red". Use the in-class initializer instead.(ğî—W8¡÷’üÇ0
+=	cpp:S1854>"!Value stored to 'p' is never read(¡Õ¿8èÍÓ‚È0
+M	cpp:S3584H",Potential leak of memory pointed to by 'tmp'(óö˜½úÿÿÿÿ8¨Šä‚È0
+H	cpp:S3584K",Potential leak of memory pointed to by 'tmp'(…×â8¨Šä‚È0
+\	cpp:S1854U";Value stored to 'p' during its initialization is never read(Ô¨¨ïşÿÿÿÿ8èÍÓ‚È0
+\	cpp:S1854b";Value stored to 'p' during its initialization is never read(Ô¨¨ïşÿÿÿÿ8èÍÓ‚È0
