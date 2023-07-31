@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="Widget.Theme.NoActivity.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.NoActivity.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+
+    <!--相对布局格式-->
+    <style name="relativelayout">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+
+    </style>
+</resources>

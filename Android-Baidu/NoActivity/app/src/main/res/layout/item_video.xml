@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    android:orientation="vertical">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/video"
+                android:layout_width="393dp"
+                android:layout_height="280dp"
+                android:layout_marginTop="8dp"
+                android:padding="5dp"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.0"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toBottomOf="@+id/video_title"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/video_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text="标题"
+                android:textColor="#000000"
+                card_view:layout_constraintTop_toTopOf="parent"
+                android:textSize="30dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/usernameblock"
+    card_view:layout_constraintTop_toBottomOf="@+id/video">
+
+    <ImageView
+        android:id="@+id/username2"
+        android:layout_width="33dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_weight="5"
+        android:gravity="center_vertical"
+        android:src="@drawable/lenghan"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_weight="8"
+        android:gravity="center_vertical"
+        android:text="用户"
+        android:textSize="20dp" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:layout_constraintTop_toBottomOf="@+id/usernameblock"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:src="@drawable/like">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:text="点赞"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:src="@drawable/comment">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="评论"
+                android:textSize="20dp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:src="@drawable/share">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="关注"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
